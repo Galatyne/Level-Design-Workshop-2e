@@ -24,6 +24,9 @@ namespace JUTPS.DestructibleSystem
         [Header("FX")]
         public float TimeToFracture = 0f;
         public GameObject DestructionFX;
+
+        int hitCounter = 5;
+        
         IEnumerator _DestroyObject()
         {
             /*if (TimeToFracture > 0 && GlowEffect != null)
