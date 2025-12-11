@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ffd145f13810704f8968789ae7fd9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletVelocity: 150
-  BulletDamage: 20
+  BulletVelocity: 100
+  BulletDamage: 10
   DestroyTime: 0
   HightPrecisionCollisionDetection: 1
   ImpactAddForce: 1
