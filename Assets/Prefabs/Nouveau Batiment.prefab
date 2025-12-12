@@ -38540,12 +38540,12 @@ MonoBehaviour:
   - {fileID: 7446697398790699704}
   - {fileID: 7486461144221048192}
   WaypointPathPositions:
-  - {x: -8.249998, y: 20.030163, z: 5.25}
-  - {x: -8.249996, y: 20.030163, z: -17.750008}
-  - {x: 1.2500048, y: 20.030163, z: -17.750008}
-  - {x: 1.2500038, y: 20.030163, z: -6.250005}
-  - {x: -4.749997, y: 20.030163, z: -6.2500057}
-  - {x: -4.749998, y: 20.030163, z: 5.749996}
+  - {x: -358.65253, y: 52.190163, z: -171.79398}
+  - {x: -381.28915, y: 52.190163, z: -167.72179}
+  - {x: -382.97116, y: 52.190163, z: -177.0717}
+  - {x: -371.65283, y: 52.190163, z: -179.1078}
+  - {x: -370.5905, y: 52.190163, z: -173.20259}
+  - {x: -358.78012, y: 52.190163, z: -175.32721}
   ClearWaypointsAfterGettingPathPositions: 0
   ReverseOnStart: 0
   DrawPath: 1
@@ -87744,7 +87744,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6129575407264270623, guid: 63f418ede74214949abe7fcf6e6910c3,
         type: 3}
-      insertIndex: 3
+      insertIndex: -1
       addedObject: {fileID: 5280211241268935481}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63f418ede74214949abe7fcf6e6910c3, type: 3}

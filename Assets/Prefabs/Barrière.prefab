@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1202205190222919262
+--- !u!1 &3265437071644667725
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6497799740782522851}
-  - component: {fileID: 1300041567182619699}
-  - component: {fileID: 7001560660426708796}
-  - component: {fileID: 7007533850937449184}
+  - component: {fileID: 2161161973935960531}
+  - component: {fileID: 5381925955550904568}
+  - component: {fileID: 2806877481013572438}
   m_Layer: 2
   m_Name: Cover Trigger (2)
   m_TagString: CoverTrigger
@@ -19,36 +18,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6497799740782522851
+--- !u!4 &2161161973935960531
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202205190222919262}
+  m_GameObject: {fileID: 3265437071644667725}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -3, y: -0.5, z: -0.0625}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -2.75, y: -0.6, z: 0}
+  m_LocalScale: {x: 0.5, y: 1, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2871017871539538235}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!33 &1300041567182619699
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202205190222919262}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &7001560660426708796
+--- !u!65 &5381925955550904568
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202205190222919262}
+  m_GameObject: {fileID: 3265437071644667725}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -61,22 +52,22 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.5}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7007533850937449184
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &2806877481013572438
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202205190222919262}
+  m_GameObject: {fileID: 3265437071644667725}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff009059650cc5746b9cdd343cdfbbb1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::JUTPS.CoverSystem.JUCoverTrigger
   IsCrouchingCover: 1
---- !u!1 &1444205511133021853
+--- !u!1 &5056146932081218597
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -84,162 +75,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4067276731727144043}
-  - component: {fileID: 2255430784683426051}
-  - component: {fileID: 7366492023491941479}
-  - component: {fileID: 3817378542759564106}
-  m_Layer: 2
-  m_Name: Cover Trigger (1)
-  m_TagString: CoverTrigger
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4067276731727144043
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444205511133021853}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0.9375}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2871017871539538235}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!33 &2255430784683426051
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444205511133021853}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &7366492023491941479
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444205511133021853}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4, y: 1, z: 0.5}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3817378542759564106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1444205511133021853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff009059650cc5746b9cdd343cdfbbb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsCrouchingCover: 1
---- !u!1 &2488595174547789445
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8809328817970100672}
-  - component: {fileID: 3492768781775207943}
-  - component: {fileID: 7697943661215732826}
-  - component: {fileID: 414473865379970993}
-  m_Layer: 2
-  m_Name: Cover Trigger
-  m_TagString: CoverTrigger
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8809328817970100672
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2488595174547789445}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2871017871539538235}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3492768781775207943
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2488595174547789445}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &7697943661215732826
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2488595174547789445}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4, y: 1, z: 0.5}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &414473865379970993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2488595174547789445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff009059650cc5746b9cdd343cdfbbb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  IsCrouchingCover: 1
---- !u!1 &5038312701794430339
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6231872271171698469}
-  - component: {fileID: 634204421265172128}
-  - component: {fileID: 3045191400824832395}
-  - component: {fileID: 449693377019759871}
+  - component: {fileID: 2040951776471382988}
+  - component: {fileID: 6207321302646158283}
+  - component: {fileID: 5331995003949778652}
   m_Layer: 2
   m_Name: Cover Trigger (3)
   m_TagString: CoverTrigger
@@ -247,36 +85,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6231872271171698469
+--- !u!4 &2040951776471382988
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5038312701794430339}
+  m_GameObject: {fileID: 5056146932081218597}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 3, y: -0.5, z: -0.0625}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 2.66, y: -0.6, z: 0}
+  m_LocalScale: {x: 0.5, y: 1, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2871017871539538235}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
---- !u!33 &634204421265172128
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5038312701794430339}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!65 &3045191400824832395
+--- !u!65 &6207321302646158283
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5038312701794430339}
+  m_GameObject: {fileID: 5056146932081218597}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -289,20 +119,154 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.5, y: 1, z: 0.5}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &449693377019759871
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &5331995003949778652
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5038312701794430339}
+  m_GameObject: {fileID: 5056146932081218597}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff009059650cc5746b9cdd343cdfbbb1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::JUTPS.CoverSystem.JUCoverTrigger
+  IsCrouchingCover: 1
+--- !u!1 &5462547932800840402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2873623710752131784}
+  - component: {fileID: 866265052381237705}
+  - component: {fileID: 1623286162511612216}
+  m_Layer: 2
+  m_Name: Cover Trigger (1)
+  m_TagString: CoverTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2873623710752131784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462547932800840402}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: -0.6, z: 0.96}
+  m_LocalScale: {x: 4, y: 1, z: 0.29999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2871017871539538235}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &866265052381237705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462547932800840402}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1623286162511612216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462547932800840402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff009059650cc5746b9cdd343cdfbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JUTPS.CoverSystem.JUCoverTrigger
+  IsCrouchingCover: 1
+--- !u!1 &5482931504804457984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131620089242998932}
+  - component: {fileID: 7965307355147029993}
+  - component: {fileID: 8883604593374950986}
+  m_Layer: 2
+  m_Name: Cover Trigger (4)
+  m_TagString: CoverTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &131620089242998932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5482931504804457984}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: -0.6, z: 0.55}
+  m_LocalScale: {x: 4, y: 1, z: 0.12}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2871017871539538235}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &7965307355147029993
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5482931504804457984}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &8883604593374950986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5482931504804457984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff009059650cc5746b9cdd343cdfbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JUTPS.CoverSystem.JUCoverTrigger
   IsCrouchingCover: 1
 --- !u!1 &7169222781283340458
 GameObject:
@@ -335,14 +299,15 @@ Transform:
   m_GameObject: {fileID: 7169222781283340458}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -22, y: 1.75, z: 1.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8809328817970100672}
-  - {fileID: 4067276731727144043}
-  - {fileID: 6497799740782522851}
-  - {fileID: 6231872271171698469}
+  - {fileID: 4675005078588278163}
+  - {fileID: 2873623710752131784}
+  - {fileID: 131620089242998932}
+  - {fileID: 2161161973935960531}
+  - {fileID: 2040951776471382988}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7643834686329031566
@@ -472,45 +437,45 @@ MonoBehaviour:
   - m_Vertices: 0b0000000e00000012000000
   m_SharedTextures: []
   m_Positions:
-  - {x: -2.5, y: -0.75, z: 0.5}
-  - {x: 2.5, y: -0.75, z: 0.5}
-  - {x: -2.5, y: 0.5, z: 0.5}
-  - {x: 2.5, y: 0.5, z: 0.5}
-  - {x: 2.5, y: -0.75, z: 0.5}
-  - {x: 2.5, y: -0.75, z: -0.5}
-  - {x: 2.5, y: 0.5, z: 0.5}
-  - {x: 2.5, y: 0.5, z: -0.5}
-  - {x: 2.5, y: -0.75, z: -0.5}
-  - {x: -2.5, y: -0.75, z: -0.5}
-  - {x: 2.5, y: 0.5, z: -0.5}
-  - {x: -2.5, y: 0.5, z: -0.5}
-  - {x: -2.5, y: -0.75, z: -0.5}
-  - {x: -2.5, y: -0.75, z: 0.5}
-  - {x: -2.5, y: 0.5, z: -0.5}
-  - {x: -2.5, y: 0.5, z: 0.5}
-  - {x: -2.5, y: 0.5, z: 0.5}
-  - {x: 2.5, y: 0.5, z: 0.5}
-  - {x: -2.5, y: 0.5, z: -0.5}
-  - {x: 2.5, y: 0.5, z: -0.5}
-  - {x: -2.5, y: -0.75, z: -0.5}
-  - {x: 2.5, y: -0.75, z: -0.5}
-  - {x: -2.5, y: -0.75, z: 0.5}
-  - {x: 2.5, y: -0.75, z: 0.5}
+  - {x: -2.5, y: -0.675, z: 0.5}
+  - {x: 2.5, y: -0.675, z: 0.5}
+  - {x: -2.5, y: 0.425, z: 0.5}
+  - {x: 2.5, y: 0.425, z: 0.5}
+  - {x: 2.5, y: -0.675, z: 0.5}
+  - {x: 2.5, y: -0.675, z: -0.5}
+  - {x: 2.5, y: 0.425, z: 0.5}
+  - {x: 2.5, y: 0.425, z: -0.5}
+  - {x: 2.5, y: -0.675, z: -0.5}
+  - {x: -2.5, y: -0.675, z: -0.5}
+  - {x: 2.5, y: 0.425, z: -0.5}
+  - {x: -2.5, y: 0.425, z: -0.5}
+  - {x: -2.5, y: -0.675, z: -0.5}
+  - {x: -2.5, y: -0.675, z: 0.5}
+  - {x: -2.5, y: 0.425, z: -0.5}
+  - {x: -2.5, y: 0.425, z: 0.5}
+  - {x: -2.5, y: 0.425, z: 0.5}
+  - {x: 2.5, y: 0.425, z: 0.5}
+  - {x: -2.5, y: 0.425, z: -0.5}
+  - {x: 2.5, y: 0.425, z: -0.5}
+  - {x: -2.5, y: -0.675, z: -0.5}
+  - {x: 2.5, y: -0.675, z: -0.5}
+  - {x: -2.5, y: -0.675, z: 0.5}
+  - {x: 2.5, y: -0.675, z: 0.5}
   m_Textures0:
-  - {x: 5, y: -0.25}
-  - {x: 0, y: -0.25}
+  - {x: 5, y: -0.100000024}
+  - {x: 0, y: -0.100000024}
   - {x: 5, y: 1}
   - {x: 0, y: 1}
-  - {x: 1, y: -0.25}
-  - {x: 0, y: -0.25}
+  - {x: 1, y: -0.100000024}
+  - {x: 0, y: -0.100000024}
   - {x: 1, y: 1}
   - {x: 0, y: 1}
-  - {x: 5, y: -0.25}
-  - {x: 0, y: -0.25}
+  - {x: 5, y: -0.100000024}
+  - {x: 0, y: -0.100000024}
   - {x: 5, y: 1}
   - {x: 0, y: 1}
-  - {x: 1, y: -0.25}
-  - {x: 0, y: -0.25}
+  - {x: 1, y: -0.100000024}
+  - {x: 0, y: -0.100000024}
   - {x: 1, y: 1}
   - {x: 0, y: 1}
   - {x: 0, y: 1}
@@ -557,7 +522,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1442
+  m_VersionIndex: 1464
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -577,8 +542,8 @@ MonoBehaviour:
   m_Shape:
     rid: 5249678953958866977
   m_ShapeRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UnmodifiedMeshVersion: 1442
-  m_Size: {x: 5, y: 1.25, z: 1}
+  m_UnmodifiedMeshVersion: 1464
+  m_Size: {x: 5, y: 1.1, z: 1}
   m_LocalCenter: {x: 0, y: -0.125, z: 0}
   references:
     version: 2
@@ -687,3 +652,70 @@ MonoBehaviour:
   TimeToFracture: 0
   DestructionFX: {fileID: 1431530912211830, guid: 585a1ef8c48a0cf4f97332139e4344de,
     type: 3}
+--- !u!1 &8965708086715102142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4675005078588278163}
+  - component: {fileID: 1176248776418540656}
+  - component: {fileID: 8281931321565732155}
+  m_Layer: 2
+  m_Name: Cover Trigger
+  m_TagString: CoverTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4675005078588278163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965708086715102142}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.6, z: -0.9}
+  m_LocalScale: {x: 4, y: 1, z: 0.29999998}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2871017871539538235}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1176248776418540656
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965708086715102142}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &8281931321565732155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8965708086715102142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff009059650cc5746b9cdd343cdfbbb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JUTPS.CoverSystem.JUCoverTrigger
+  IsCrouchingCover: 1
