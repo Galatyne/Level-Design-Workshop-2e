@@ -1,16 +1,18 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Killzone : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    bool reload = false;
+    
+    void OnTriggerEnter(Collider other)
     {
-        
+        if(reload == false)Reload();
     }
 
-    // Update is called once per frame
-    void Update()
+    void Reload()
     {
-        
+        reload = true;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
