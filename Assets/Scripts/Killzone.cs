@@ -7,7 +7,7 @@ public class Killzone : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        if(reload == false)Reload();
+        if(reload == false && other.CompareTag("Player"))Reload();
     }
 
     void Reload()
